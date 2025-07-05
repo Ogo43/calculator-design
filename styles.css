@@ -25,6 +25,13 @@ input[type="number"] {
     box-shadow: 5px 5px 3px 7px rgb(243, 244, 245) inset;
 }
 
+input::placeholder, input[type="number"]{
+    font-size: 1.5rem;
+    color: rgb(88, 86, 86);
+}
+   
+
+
 .symbols{
     display: flex;
     justify-content: space-around;
